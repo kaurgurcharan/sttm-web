@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { pageView } from '../../util/analytics';
 import PropTypes from 'prop-types';
 import raagIndices from './raagIndices';
-import { toAngURL } from '../../util';
+import { pageView } from '@/util/analytics';
+import { toAngURL } from '@/util';
 
 const sanitizeHash = (...args) => args.map(a => a.replace(/ /gi, '')).join('-');
 

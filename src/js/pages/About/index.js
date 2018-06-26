@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { pageView } from '../../util/analytics';
+import { pageView } from '@/util/analytics';
 
 export default class About extends React.PureComponent {
   render() {

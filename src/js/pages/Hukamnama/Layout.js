@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { TEXTS } from '../../constants';
-import { pageView } from '../../util/analytics';
-import ShabadContent from '../../components/ShabadContent';
+import { TEXTS } from '@/constants';
+import { pageView } from '@/util/analytics';
+import ShabadContent from '@/components/ShabadContent';
 
 export const Stub = () => <div className="spinner" />;
 

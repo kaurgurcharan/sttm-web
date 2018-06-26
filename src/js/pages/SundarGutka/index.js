@@ -1,12 +1,12 @@
 /* globals BANIS_API_URL */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { pageView } from '../../util/analytics';
-import { versesToGurbani } from '../../util';
+import { pageView } from '@/util/analytics';
+import { versesToGurbani } from '@/util';
 import PropTypes from 'prop-types';
-import ShabadContent from '../../components/ShabadContent';
-import Fetch from '../../components/Fetch';
-import { TEXTS } from '../../constants';
+import ShabadContent from '@/components/ShabadContent';
+import Fetch from '@/components/Fetch';
+import { TEXTS } from '@/constants';
 
 export default class SundarGutka extends React.PureComponent {
   static propTypes = {

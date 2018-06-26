@@ -1,9 +1,9 @@
 /* globals SYNC_API_URL */
 import React from 'react';
-import { TEXTS } from '../../constants';
-import Viewer from './Viewer';
 import { Link } from 'react-router-dom';
-import { showToast } from '../../util';
+import Viewer from './Viewer';
+import { showToast } from '@/util';
+import { TEXTS } from '@/constants';
 
 /**
  *
